@@ -12,16 +12,7 @@ import java.util.Map;
  * @author: clark
  * @create: 2020-03-18 11:30
  **/
-@Component
 public class Main {
-    @Autowired
-    Map<String, Strategy> strategyInterfaceMap;
-
-    @PostConstruct
-    public void init() {
-        System.out.println("StrategyInterface = " + strategyInterfaceMap);
-    }
-
     public static void main(String[] args) {
         Context context = new Context(new StrategyA());
         context.executeStrategy("a");
