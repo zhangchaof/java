@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class StrategyA implements Strategy {
 
     @Override
-    public void test() {
-        System.out.println("---------- StrategyInterfaceA ------------ ");
+    public void test(String test) {
+        System.out.println("---------- StrategyInterfaceA ------------ " + test);
     }
 }
