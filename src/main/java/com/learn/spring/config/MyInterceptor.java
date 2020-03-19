@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 作用:最常用的登录拦截、或是权限校验、或是防重复提交、或是根据业务像12306去校验购票时间,总之可以去做很多的事情
+ * 作用:最常用的登录拦截、或是权限校验、或是防重复提交等
  * @program: java:MyInterceptor
  * @description: 自定义拦截器
  * @author: clark
